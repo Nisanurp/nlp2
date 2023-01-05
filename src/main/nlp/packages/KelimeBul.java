@@ -1,17 +1,10 @@
 package nlp.packages;
-import java.io.IOException;
-import java.io.StringReader;
-import java.nio.charset.StandardCharsets;
-import java.sql.SQLOutput;
+
 import java.util.*;
-import java.util.ArrayList.*;
-import afu.org.checkerframework.checker.oigj.qual.I;
 import zemberek.morphology.TurkishMorphology;
 import zemberek.morphology.generator.WordGenerator.Result;
-import zemberek.morphology.generator.*;
 import zemberek.morphology.lexicon.DictionaryItem;
 import zemberek.tokenization.TurkishSentenceExtractor;
-import zemberek.morphology.TurkishMorphology;
 public class KelimeBul{
     static ArrayList<String> myArrayList= new ArrayList<>();
     static List<Result> results;
